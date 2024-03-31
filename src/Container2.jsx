@@ -8,12 +8,12 @@ function Container2() {
             <h1>
                 Make Bolder Choices
             </h1>
-            <p>
-                Future-Proof your business. Drive efficiency, profitability and deliver on customer experience
-            </p>
             <h3>
-                AI + RPA Automation
+                Digital focused strategies to realize market-changing ideas
             </h3>
+            <p>
+                Build Better Apps
+            </p>
             <img src={poiner} alt="pointer image"/>
 
         </div>

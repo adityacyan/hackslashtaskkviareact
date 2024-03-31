@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <header>
-                Lets Collaborate
+                <h1>Lets Collaborate </h1>
             </header>
 
 
