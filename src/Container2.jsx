@@ -8,14 +8,20 @@ function Container2() {
             <h1>
                 Make Bolder Choices
             </h1>
+            <div id={"transform"}>
+
+                <img id={"imagex"}
+                     src={"https://lets-collab-rust.vercel.app/static/media/s2-image.e0b53b689fd9881066ec.png"}
+                     alt={"mobiles"}/>
+            </div>
             <h3>
                 Digital focused strategies to realize market-changing ideas
             </h3>
             <div id={"linker"}>
-            <p>
-                Build Better Apps
-            </p>
-<Pointerx></Pointerx>
+                <p>
+                    Build Better Apps
+                </p>
+                <Pointerx></Pointerx>
             </div>
 
         </div>

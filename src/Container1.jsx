@@ -8,13 +8,19 @@ function Container1() {
             <h1>
                 AI + RPA is what we do
             </h1>
-            <p>
+            <div id={"transform"}>
+
+                <img id={"imagex"}
+                     src={"https://lets-collab-rust.vercel.app/static/media/s1-image.d6d4b7703bc14f99bb7e.jpg"}
+                     alt={"mobiles"}/>
+            </div>
+            <h3>
                 Future-Proof your business. Drive efficiency, profitability and deliver on customer experience
-            </p>
+            </h3>
             <div id="linker">
-                <h3 >
+                <p>
                     AI + RPA Automation
-                </h3>
+                </p>
                 <Pointerx/>
             </div>
 
