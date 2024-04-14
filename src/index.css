@@ -1,6 +1,8 @@
 #root{
     display: flex;
     flex-direction: column;
+    padding-bottom: 10%;
+
 }
 
 
@@ -11,3 +13,19 @@
         padding-right: 10%;
     }
 }
+.darkmoderoot {
+    background-color: #212529;
+    color: whitesmoke;
+    transition: .5s;
+}
+.bodyx{
+    margin: 0px;
+    padding: 0%;
+}
+body {
+    background-color: cadetblue;
+
+    transition: .5s;
+}
+
+
