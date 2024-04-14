@@ -1,21 +1,29 @@
 import './App.css'
-import poiner from './assets/pointer.svg'
+import Pointerx from "./Pointer.jsx";
 
 
 function Container4() {
     return (
-        <div>
+        <div id={"boxes"}>
             <h1>
                 Embrace Cloud
             </h1>
-            <p>
-                With Cloud-First accelerate innovation and optimize performance            </p>
+            <div id={"transform"}>
+
+                <img id={"imagex"}
+                     src={"https://lets-collab-rust.vercel.app/static/media/s4-image.e02e593de8014f43f419.jpg"}
+                     alt={"mobiles"}/>
+            </div>
             <h3>
-                Cloud Services
+                With Cloud-First accelerate innovation and optimize performance </h3>
 
-            </h3>
-            <img src={poiner} alt="pointer image" />
+            <div id={"linker"}>
+                <p>
+                    Cloud Services
 
+                </p>
+                <Pointerx></Pointerx>
+            </div>
         </div>
     )
 

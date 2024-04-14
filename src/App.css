@@ -1,0 +1,36 @@
+h1{
+    padding-top: 1%;
+}
+#linker{
+    display: flex;
+    flex-direction: row;
+}
+#pointer{
+    padding-left:10px ;
+    width: 27px;
+
+}
+#transform{
+    float: right;
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #boxes {
+        float: left;
+        width: auto;
+    }
+    #transform {
+        display: flex;
+        flex-direction: column;
+    }
+    #imagex{
+        width: 100%;
+
+
+    }
+}

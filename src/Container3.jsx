@@ -1,19 +1,19 @@
 import './App.css'
-import poiner from './assets/pointer.svg'
-
+import Pointerx from "./Pointer.jsx";
 
 function Container3() {
     return (
-        <div>
+        <div id={"boxes"}>
             <h1>
-                Innovate With Speed            </h1>
+                Innovate With Speed </h1>
             <h3>
-                Create higher quality software, deliver on customer expectations and business goals            </h3>
+                Create higher quality software, deliver on customer expectations and business goals </h3>
+           <div id={"linker"}>
             <p>
                 DevOps
             </p>
-            <img src={poiner} alt="pointer image"/>
-
+            <Pointerx></Pointerx>
+           </div>
         </div>
     )
 
