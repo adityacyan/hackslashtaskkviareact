@@ -1,8 +1,5 @@
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+Made hackslash task via react for practice , the original task submission can be found [here]{https://adityacyan.github.io/web101/}.
+Previously the submission i did wasnt responsive but now i have made it responsive, this [new site]{https://hackslashtaskbyreact-adityacyan.netlify.app/} is fullyy responsive.
+-adrishy
