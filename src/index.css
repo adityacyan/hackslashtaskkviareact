@@ -2,17 +2,27 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 10%;
-
-}
-
-
-@media only screen and (min-width: 620px) {
-    /* For desktop pcs: */
-    #root {
     padding-left: 10%;
-        padding-right: 10%;
+          padding-right: 10%;
+
     }
-}
+
+
+    /*@media only screen and (min-width: 620px) {*/
+/*    !* For desktop pcs: *!*/
+/*    #root {*/
+/*    padding-left: 10%;*/
+/*        padding-right: 10%;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 620px) {*/
+/*    !* For desktop pcs: *!*/
+/*    #root {*/
+/*        padding-left: 10%;*/
+/*        padding-right: 10%;*/
+/*    }*/
+/*}*/
 .darkmoderoot {
     background-color: #212529;
     color: whitesmoke;

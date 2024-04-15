@@ -1,10 +1,42 @@
-h1{
-    padding-top: 1%;
+/*#boxes{*/
+/*    float: left;*/
+/*}*/
+h1 {
+    font-size: 250%;
+    font-weight: initial;
 }
+
+h3 {
+    font-size: 130%;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 125%;
+    font-weight: bolder;
+}
+
 #linker{
+    height: fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: row;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+
+}
+#linker:hover {
+    height: max-content;
+    width: fit-content;
+
+    cursor: pointer;
+    opacity: 85%;
+    color: aliceblue;
+    text-decoration-line: underline;
+    transition: transform .4s
+
+
 }
 #pointer{
     padding-left:10px ;
@@ -12,19 +44,62 @@ h1{
 
 }
 #transform{
-    float: right;
-    display: inline-block;
 
-    vertical-align: top;
+    width: fit-content;
+
+
+
+}
+#transformx{
+    float: right;
+
+
+}
+#transformx:hover {
+
+    transition: transform 1.2s;
+    transform: rotateY(180deg);
+}
+#arranger{
+
+    justify-content: space-between;
 }
 #imagex{
     width: 520px;
     height: 312px;
 
 }
+#darkmodebutton {
+    background-color: #212529;
+    color: whitesmoke;
+    margin: 5px;
+    border-color: white;
+    border-style: double;
+    padding: 20px;
+}
+
+#darkmodebutton:hover {
+    text-decoration-line: underline;
+    transition: transform .2s;
+    cursor: pointer;
+    background-color: #212529;
+    color: whitesmoke;
+    margin: 5px;
+    border-color: white;
+    border-style: double;
+    padding: 20px;
+    transform: scale(1.2);
+}
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    text-decoration-line: underline;
+    color: aliceblue;
+    transition: transform .5s
+}
 
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 1079px) {
     /* For mobile phones: */
     #boxes {
         float: left;
@@ -39,9 +114,20 @@ h1{
 
 
     }
+    h3 {
+        font-size: 130%;
+        font-weight: bold;
+        padding-right: 25px;
+
+    }
     #linker{
         display: flex;
         flex-direction: row;
         padding-bottom: 0px;
+    }
+    #arranger{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
